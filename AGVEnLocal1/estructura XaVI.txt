@@ -1,0 +1,26 @@
+ If Strings.Left(Codi, 1) = 0 Then
+                ButtonDreta.BackColor = Color.Red
+            Else
+                ButtonDreta.BackColor = Color.Empty
+            End If
+            Codi = Strings.Right(Codi, 3)
+
+            If Strings.Left(Codi, 1) = 0 Then
+                ButtonEsquerra.BackColor = Color.Red
+            Else
+                ButtonEsquerra.BackColor = Color.Empty
+            End If
+            Codi = Strings.Right(Codi, 2)
+
+            If Strings.Left(Codi, 1) = 0 Then
+                ButtonAdalt.BackColor = Color.Red
+            Else
+                ButtonAdalt.BackColor = Color.Empty
+            End If
+            Codi = Strings.Right(Codi, 1)
+
+            If Strings.Left(Codi, 1) = 0 Then
+                ButtonAbaix.BackColor = Color.Red
+            Else
+                ButtonAbaix.BackColor = Color.Empty
+            End If
